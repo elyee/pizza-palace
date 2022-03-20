@@ -39,7 +39,7 @@
             </h1>
             <div class="h2"><h2>with numerous toppings as well as the crust you like!
                 <br>fast delivery capabilities for residents in nairobi. <br> *Karibu Pizza-palace*.</h2></div>
-        <button class="menu">
+        <button class="menu" onclick="">
                 <strong>
                     menu
                 </strong>
@@ -47,5 +47,52 @@
             </div>
     </div>
 </div>
+
+<div>
+    <h5>Pizza size</h5>
+    <select class="select" id="pizzaSize">
+        <option value="Small" id="small">Small</option>
+        <option value="Medium" id="medium">Medium</option>
+        <option value="Large" id="large">Large</option>
+    </select>
+</div>
+<div>
+    <h5>Topping</h5>
+    <select class="select" id="pizzaTopping">
+       <option value="Cheese" id="cheese">Cheese</option>
+       <option value="Olives" id="olives">Olives</option>
+       <option value="Peperoni" id="peperoni">Peperoni</option>
+    </select>
+</div>
+<div>
+    <h5>Pizza base</h5>
+    <select class="select" id="pizzaCrust">
+       <option value="Crispy" id="crispy">Crispy</option>
+       <option value="Stuffed" id="stuffed">Stuffed</option>
+       <option value="Glutten Free" id="glutten">Glutten Free</option>
+    </select>
+</div>
+<br>
+<button type="submit" id="placeOrder">Place Order</button>
+<button type="submit" id="orderMoreBtn">Add Order</button>
+<button type="submit" id="checkout">Checkout</button>
+
+<div id="orderDetails">
+    <h3>Order Summary</h3>
+    <table style="border: solid" id="orderSummary">
+        <th>Order</th>
+        <th>Size</th>
+        <th>Topping</th>
+        <th>Crust</th>
+        <th>Price</th>
+    </table>
+    <div id="total"></div>
+    <div id="locationInfo">
+        <p>Where do you live</p>
+        <input type="text" id="location">
+        <button type="submit" id="deliver">Deliver</button>
+    </div>
+</div>
+<script src="main.js"></script>
 </body>
 </html>

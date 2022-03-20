@@ -8,6 +8,10 @@
 	padding: 0;
 	display: flow-root;
 }
+body{
+	height: 1080px;
+	
+}
 .title{
 	font-family: 'Fugaz One', cursive;
 	width: 40vw;
@@ -113,7 +117,7 @@ img{
 	height: 500px;
 	align-items: flex-end;
 	margin-top: -6in;
-	margin-left: 13.6in;
+	margin-left: 11.6in;
 	z-index: 2;
 	border-radius: 9%;
 	background-color: gray;
@@ -142,4 +146,49 @@ button, .menu strong{
 	background: #FE881A;
 	border-radius: 100px;
 
+}
+button, .menu strong::after{
+	background: #f55;
+	color: wheat;
+	border-radius: 180px;
+}
+.select {
+	font-size: 40px;
+	text-align: center;
+	align-items: flex-start;
+	color: antiquewhite;
+	background-color: black;
+	float: inline-start;
+}
+button#placeOrder{
+	background-color: bottom;
+	margin-left: 200px;
+	margin-bottom: -34px;
+
+}
+button#orderMoreBtn{
+	background-color: bottom;
+	margin-left: 2in;
+}
+button#checkout{
+	background-color: bottom;
+	margin-left: 3in;
+	margin-top: -25px;
+
+}
+#location{
+	font-size: large;
+	color: #727454;
+	background-color: #fff;
+	flood-color: #FE881A;
+}
+#orderDetails{
+	color: #FE881A;
+	font-size: large;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 700;
+	font: icon;
+}
+h3{
+	margin-top: 20px;
 }
