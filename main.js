@@ -83,7 +83,7 @@ checkout.addEventListener('click', function() {
         locationInfo.style.visibility = 'visible'
         deliver.addEventListener('click', function() {
 
-          locationInfo.style.visibility = 'hidden'
+          locationInfo.style.visibility = 'visible'
           const location = document.getElementById('location')
           total.innerHTML = `
           <p>Great. Your order will be delivered to ${location.value}</p>
